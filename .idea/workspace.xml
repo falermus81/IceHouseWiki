@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="072398fa-0f3f-46d8-baa8-6bb2d7dc5f36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebPageArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebPageLanding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebPagePool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/WebStepArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/WebStepLanding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebPageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebPageLanding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebPageLanding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/WebStepLanding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/WebStepLanding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +54,7 @@
       <recent name="steps" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: As a user I can see search suggestion after typing">
     <configuration name="Scenario: As a user I can search an article using Search Bar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
@@ -90,8 +75,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: As a user I can see search suggestion after typing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="IceHouseWiki.test" />
+      <option name="NAME_FILTER" value="^As a user I can see search suggestion after typing$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user I can see search suggestion after typing$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user I can see search suggestion after typing" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: As a user I can see search suggestion after typing" />
         <item itemvalue="Cucumber Java.Scenario: As a user I can search an article using Search Bar" />
       </list>
     </recent_temporary>

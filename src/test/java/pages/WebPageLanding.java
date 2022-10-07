@@ -8,6 +8,8 @@ import static pages.WebPagePool.webPageArticle;
 public class WebPageLanding extends WebPageBase {
     public By searchInput = By.id("searchInput");
     public By searchButton = By.id("searchButton");
+
+    public By searchSuggestion = By.className("highlight");
     public WebPageLanding(WebDriver webDriver) {
         super(webDriver);
     }

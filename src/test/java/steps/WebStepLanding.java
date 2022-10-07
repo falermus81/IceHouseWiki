@@ -1,6 +1,7 @@
 package steps;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -24,5 +25,15 @@ public class WebStepLanding {
         webPageLanding.sendKeys(webPageLanding.searchInput, input);
         webPageLanding.click(webPageLanding.searchButton);
         webPageLanding.goToArticle();
+    }
+
+    @When("The word {string} is typed in Search Bar")
+    public void theWordIsTypedInSearchBar(String input) {
+        webPageLanding.sendKeys(webPageLanding.searchInput, input);
+    }
+
+    @Then("Suggestion result should be displayed with text {string}")
+    public void suggestionResultShouldBeDisplayedWithText(String text) {
+        webPageLanding.assertText(webPageLanding.searchSuggestion, text);
     }
 }

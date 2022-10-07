@@ -47,4 +47,13 @@ public class WebPageBase implements WebPage {
     public void assertTitle(String title) {
         Assert.assertEquals("The title is incorrect", title, this.webDriver.getTitle());
     }
+
+    @Override
+    public void assertText(By by, String text) {
+        List<WebElement> webElements = this.webDriverWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+        for (WebElement webElement: webElements) {
+            Assert.assertEquals("The text is incorrect", text, webElement.getText());
+            break;
+        }
+    }
 }
